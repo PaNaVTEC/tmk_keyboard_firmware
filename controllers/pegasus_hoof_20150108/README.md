@@ -10,6 +10,10 @@ Move to this directory then just run `make` like:
 
     $ make -f Makefile.lufa clean && make -f Makefile.lufa
 
+Or if you want to make & upload to your board:
+
+    $ make -f Makefile.lufa clean && make -f Makefile.lufa dfu
+
 At the moment only the LUFA stack is supported.
 
 
