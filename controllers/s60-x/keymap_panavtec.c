@@ -18,14 +18,14 @@ const uint8_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     /* 0: qwerty */
     KEYMAP(GRV,    1,    2,   3,   4,   5,   6,   7,   8,    9,    0, MINS, EQL,    NO, BSPC, \
            TAB,    Q,    W,   E,   R,   T,   Y,   U,   I,    O,    P, LBRC, RBRC, BSLS,       \
-           FN0,    A,    S,   D,   F,   G,   H,   J,   K,    L, SCLN, QUOT, NO,   ENT,        \
+           FN0,    A,    S,   D,   F,   G,   H,   J,   K,    L, SCLN, QUOT, NO,    ENT,       \
            FN4,   NO,    Z,   X,   C,   V,   B,   N,   M, COMM,  DOT, SLSH, NO,   RSFT,   NO, \
-          LCTL, LGUI, LALT,                FN7,                 RALT, RGUI, APP,  RCTL),      \
+          LCTL, LGUI, LALT,                FN7,                 RALT, RGUI,CAPS,  RCTL),      \
     /* 1: SpaceFn/media layer */
-    KEYMAP(ESC,   F1,  F2,  F3,  F4,  F5,  F6,  F7,  F8,   F9,  F10,  F11,  F12,TRNS,    DEL, \
+    KEYMAP(ESC,   F1,  F2,  F3,  F4,  F5,  F6,  F7,  F8,   F9,  F10,  F11,  F12, TRNS,   DEL, \
            TRNS, FN6,  FN3, ESC,MUTE, FN5,TRNS,HOME,  UP,  END,PSCR, SLCK, PAUS,  INS,        \
            TRNS,TRNS, TRNS,TRNS,VOLU,TRNS,PGUP,LEFT,DOWN, RGHT,TRNS, TRNS, TRNS, TRNS,        \
-           TRNS, NO, TRNS, TRNS,TRNS,VOLD, SPC,PGDN, FN1,TRNS, TRNS, APP,   NO, RSFT,   NO,   \
+           TRNS, NO, TRNS, TRNS,TRNS,VOLD, SPC,PGDN, FN1,TRNS, TRNS, APP,   NO,  RSFT,   NO,  \
            TRNS,TRNS, TRNS,               TRNS,                 TRNS,TRNS, TRNS, TRNS),       \
     /* 2: Mouse layer */
     KEYMAP(FN2, TRNS, TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS, TRNS,TRNS, TRNS, TRNS, TRNS,  TRNS, \
@@ -38,13 +38,13 @@ const uint8_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
            TAB,    Q,    W,   E,   R,   T,   Y,   U,   I,    O,    P, LBRC, RBRC, BSLS,       \
            FN0,    A,    S,   D,   F,   G,   H,   J,   K,    L, SCLN, QUOT, NO,   ENT,        \
            FN4,   NO,    Z,   X,   C,   V,   B,   N,   M, COMM,  DOT, SLSH, NO,   RSFT,   NO, \
-           LCTL, NO, LALT,                FN7,                 RALT, NO, APP,  RCTL),         \
+           LCTL,  NO, LALT,                FN7,                 RALT,   NO,APP,  RCTL),       \
     /* 4: WIP OSX */
     KEYMAP(GRV,    1,    2,   3,   4,   5,   6,   7,   8,    9,    0, MINS, EQL,    NO, BSPC, \
            TAB,    Q,    W,   E,   R,   T,   Y,   U,   I,    O,    P, LBRC, RBRC, BSLS,       \
-           FN0,    A,    S,   D,   F,   G,   H,   J,   K,    L, SCLN, QUOT, NO,   ENT,        \
+           FN0,    A,    S,   D,   F,   G,   H,   J,   K,    L, SCLN, QUOT, NO,    ENT,       \
            FN4,   NO,    Z,   X,   C,   V,   B,   N,   M, COMM,  DOT, SLSH, NO,   RSFT,   NO, \
-           LCTL, NO, LALT,                FN7,                 RALT, NO, APP,  RCTL)
+           LCTL,  NO, LALT,                FN7,                 RALT,   NO, APP,  RCTL)
 };
 
 /*
