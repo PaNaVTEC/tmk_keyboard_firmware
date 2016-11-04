@@ -12,6 +12,17 @@ In archlinux you need to install:
 yaourt -S avr-libc avr-gcc --noconfirm
 ```
 
+Flash
+-------
+In case of filco:
+```
+#!/bin/bash
+sudo dfu-programmer atmega32u2 erase
+sudo dfu-programmer atmega32u2 flash file.hex
+sudo dfu-programmer atmega32u2 start
+```
+For sentraq, we use atmega32u4 as controller.
+
 Updates
 -------
 #### 2015/04/22
